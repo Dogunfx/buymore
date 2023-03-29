@@ -1,0 +1,70 @@
+body{
+    background-color: darkseagreen;
+}
+section header .flex{
+    box-shadow: 0 0 10px;
+    background-color: wheat;
+    font-size: large;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: lighter;
+    position: fixed;
+    justify-content: left;
+    left: 60%;
+    }
+    .text p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    left: 4%;
+    top: 20%;
+    text-align: justify;
+    color: black;
+    width: 350px;
+    align-items: justify;
+}
+em{
+    color: wheat;
+}
+.text h1{
+    top: 20%;
+}
+.grid-image{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    top: 35%;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    background-color: white;
+    color:black;
+    font: 500;
+    font-style: italic;
+}
+.why{
+    font-size: large;
+    font: bolder;
+    color: wheat;
+}
+.why p{
+    font-size: medium;
+    color: wheat;
+}
+footer{
+    background-color: black;
+    color: wheat;
+}
+.social-link img{
+    height: 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+.social-link{
+    text-align: center;
+}
+@media only screen and (max-width:700px){
+    
+}
