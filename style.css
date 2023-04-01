@@ -5,9 +5,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    background-color: darkseagreen;
     line-height: 1.6;
     padding: 2rem;
+    background-image: url(background.jpg);
+    background-color: darkseagreen;
+    background-repeat:no-repeat ;
 }
 section header .flex{
     box-shadow: 0 0 10px;
